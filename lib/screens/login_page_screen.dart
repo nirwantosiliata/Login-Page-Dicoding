@@ -211,7 +211,7 @@ class _LoginPageState extends State<LoginPage> {
         focusedBorder: const OutlineInputBorder(),
         border: const OutlineInputBorder(),
         suffixIcon: IconButton(
-          icon: Icon(obscureText ? Icons.visibility : Icons.visibility_off),
+          icon: Icon(obscureText ? Icons.visibility_off : Icons.visibility),
           onPressed: () {
             setState(() {
               obscureText = !obscureText;
